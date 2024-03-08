@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "scr": "indes.js",
+            "use": "@now/node"
+        }
+    ],
+    "routes": [
+        {
+            "scr": "/(.*)",
+            "dest": "index.js"
+        }
+    ]
+}
