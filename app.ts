@@ -19,10 +19,6 @@ app.use("/movie", movie);
 app.use("/person", person);
 app.use("/stars", stars);
 app.use("/creator", creator);
-// req = Resquest
-//res = Response
-// app.use("/", (req, res) => {
-//     res.send("Hello World!!!");
-// });
+
 
 
